@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(162, 161, 161);
+  }
+  
+  nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0 2em;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .logo{
+    text-align: center;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    cursor: pointer;
+    transition-duration: 0.5s;
+  }
+  
+  .logo:hover{
+    letter-spacing: 5px;
+  }
+  
+  .todos__number{
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  @media screen and (max-width: 740px){
+    nav{
+      display: block;
+    }
+  }
