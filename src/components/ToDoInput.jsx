@@ -74,7 +74,7 @@ function ToDoInout({ setStatus, status, setFilteredTodos }) {
       <div className="input__container">
         <form onSubmit={addTodo}>
           <label htmlFor='input' />
-          <i className="fas fa-pen pen"></i>
+          
           <input
             id='input'
             value={inputValue}
@@ -84,7 +84,7 @@ function ToDoInout({ setStatus, status, setFilteredTodos }) {
           />
 
           <button className='input__button ' aria-label="Submit to do element">
-            <i className="fas fa-plus btn btn-success .font-weight-bolder">+</i>
+            <i >+</i>
           </button>
         </form>
 

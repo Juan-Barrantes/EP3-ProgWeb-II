@@ -55,7 +55,7 @@ function ToDoItem({ item }) {
           onClick={handleCompleted}
           aria-label="Complete to do elemet"
         >
-          <i  className='fas fa-check-circle'>✔</i>
+          <i  className=''>✔</i>
 
         </button>
         <button 
@@ -63,7 +63,7 @@ function ToDoItem({ item }) {
           type='button'
           onClick={deleteTodoItem}
           aria-label="Delete to do element"
-        ><i className="fas fa-trash-alt  ">Delete</i></button>
+        ><i className="  ">Delete</i></button>
 
       </div>
     </div >
