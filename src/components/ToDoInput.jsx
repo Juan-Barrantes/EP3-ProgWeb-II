@@ -79,7 +79,7 @@ function ToDoInout({ setStatus, status, setFilteredTodos }) {
             id='input'
             value={inputValue}
             type="text"
-            placeholder='Plan?'
+            placeholder='add '
             onChange={updateInputValue}
           />
 
@@ -90,8 +90,8 @@ function ToDoInout({ setStatus, status, setFilteredTodos }) {
 
         <select onChange={handleSelect} name="To Do Filter" className='filter__todo'>
           <option value="all">All</option>
-          <option value="completed">Completed</option>
-          <option value="uncompleted">Uncompleted</option>
+          <option value="completed">Done</option>
+          <option value="uncompleted">Undone</option>
         </select>
       </div>
     </>

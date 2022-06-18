@@ -49,17 +49,16 @@ function ToDoItem({ item }) {
       </div>
 
       <div className="options">
-        <button
-          className={item.status ? 'done' : 'undone'}
+        <button 
+          className={item.status ? 'done' : 'undone'} 
           type='button'
           onClick={handleCompleted}
           aria-label="Complete to do elemet"
         >
-          <i className='fas fa-check-circle'>✔</i>
+          <i  className='fas fa-check-circle'>✔</i>
 
         </button>
-        <p  className='space'></p>
-        <button style={{"margin-left": "5px"}}
+        <button 
           className={item.status ? 'trashDone' : 'trash'}
           type='button'
           onClick={deleteTodoItem}

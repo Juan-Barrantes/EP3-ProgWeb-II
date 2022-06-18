@@ -2,7 +2,7 @@
     --shadowColor:  rgba(231, 147, 147, 0.657);
     --inputBackground:  rgba(251, 241, 241, 0.445);
     --selectBackground:  rgba(247, 233, 233, 0.445);
-    --selectDarkBackground:  rgba(116, 116, 116, 0.445);
+    --selectDarkBackground:  rgba(47, 69, 81, 0.445);
     --optionBackground:  rgb(73, 73, 73);
     --textInputColor: rgb(0, 0, 0);
     --textbuttonColorFocus: rgba(88, 88, 88, 0.644);
@@ -20,7 +20,7 @@
     height: 30px;
     color: var(--textInputColor);
     border: none;
-    border-radius: 14px;
+    border-radius: 5px;
     background-color: var(--inputBackground);
   }
   
@@ -83,7 +83,7 @@
     padding: 5px;
     width: 50%;
     transition-duration: 0.5s;
-    border-radius: 14px;
+    border-radius: 5px;
     padding: 0 14px;
   }
   
