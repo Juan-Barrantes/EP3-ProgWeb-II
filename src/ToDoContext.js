@@ -5,9 +5,7 @@ export const ToDoContext = createContext()
 export const ToDoProvider = (props) => {
   const [todos, setTodos] = useState([
     {
-      content: 'Add new task',
-      status: false,
-      id: 1,
+      
     },
   ])
 
